@@ -15,5 +15,7 @@ public class First{
         System.out.println(al);
         al.remove(3);
         System.out.println(al);
+        al.removeFirst();
+        System.out.println(al);
     }
 }
