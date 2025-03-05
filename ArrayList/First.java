@@ -37,12 +37,16 @@ public class First {
         System.out.println("Remove");
         al.remove(6);
         System.out.println(al);
-        al.remove((Integer) 6);
+        al.remove((Integer) 6);//It will remove First occurence of data
         System.out.println(al);
         al.removeFirst();
         al.removeLast();
         System.out.println(al);
         al.removeAll(al1);
         System.out.println(al);
+
+        //Size:-
+        int size=al.size();
+        System.out.println("the size of ArrayList is = "+size);
     }
 }

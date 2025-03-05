@@ -33,7 +33,7 @@ public class First {
         System.out.println(ll);
         ll.remove(3);
         System.out.println(ll);
-        ll.remove((Integer) 13);
+        ll.remove((Integer) 13); //it will remove first occurence of data
         System.out.println(ll);
         ll.removeFirst();
         ll.removeLast();
